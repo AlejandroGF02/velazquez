@@ -28,6 +28,11 @@ header{
     filter: grayscale(1);
 }
 
+.imagen-actual{
+    height: 188px;
+    width: 150px;
+}
+
 .imagen:hover{
     filter: grayscale(0);
 
