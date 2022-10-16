@@ -5,17 +5,21 @@ body{
 
 header{
     text-align: center;
-    font-weight: normal;
+    font-weight: 200;
     font-size: 2rem;
     height: 100px;
     left: 0%;
     position: static;
+
 }
 
 .menu-izquierda{
     width: 200px;
+    height: 550px;
     line-height: 75px;
     overflow: scroll;
+    position: fixed;
+
 }
 
 .imagen{
@@ -30,9 +34,71 @@ header{
     transition-duration: 1s;
 }
 
+.bloque-imagen{
+    left: 15%;
+    position: relative;
+}
+
 .imagen-grande{
-    left: 100px;
+    position: relative;
+    width: 50%;
+    height: 50%;
+}
+
+texto{
+    left: 57.5%;
+    position: relative;
+    margin-left: 5%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.derecha{
     position: absolute;
+    top: 15%;
+    width: 40%;
+    height: 100%;
+    left: 60%;
+}
+.texto-derecha{
+    position: relative;
+    margin-left: 5%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo{
+    top: 50%;
+    text-align: center;
+;
+}
+
+#año{
+    top: 48%;
+}
+
+#descripcion{
+    top: 44%;
+}
+
+#precio{
+    top: 46%;
+}
+
+#boton{
+    top: 50%;
+    left: 37%;
+    background-color: #97c1c0;
+    border-radius:5px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    outline: none;
 }
 
 
