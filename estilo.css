@@ -1,0 +1,38 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+header{
+    text-align: center;
+    font-weight: normal;
+    font-size: 2rem;
+    height: 100px;
+    left: 0%;
+    position: static;
+}
+
+.menu-izquierda{
+    width: 200px;
+    line-height: 75px;
+    overflow: scroll;
+}
+
+.imagen{
+    height: 188px;
+    width: 150px;
+    filter: grayscale(1);
+}
+
+.imagen:hover{
+    filter: grayscale(0);
+
+    transition-duration: 1s;
+}
+
+.imagen-grande{
+    left: 100px;
+    position: absolute;
+}
+
+
