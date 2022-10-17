@@ -113,7 +113,8 @@ texto{
     transition: 0.3s;
 }
 
-#myImg:hover {opacity: 0.7;}
+#myImg:hover {opacity: 0.7;
+}
 
 .modal {
     display: none;
