@@ -5,7 +5,7 @@ Como no conseguí insertar código de JavaScript hay una página para cada cuadr
 
 ## Seccion de imagenes de la parte izquierda
 
-<section class="menu-izquierda">
+    <section class="menu-izquierda">
 
         <div>
             <a href="index.html"> <img src="imagenes/breda-mini.jpg" alt="breda" class="imagen"> </a>
