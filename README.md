@@ -31,27 +31,26 @@ En el css di el estilo para las distintas secciones aportando los tamaños, esti
 ## CSS de las miniaturas de la izquierda 
 
 
-.menu-izquierda{
-    width: 200px;
-    height: 550px;
-    line-height: 75px;
-    overflow: scroll;
-    position: fixed;
+    .menu-izquierda{
+        width: 200px;
+        height: 550px;
+        line-height: 75px;
+        overflow: scroll;
+        position: fixed;
+    }
 
-}
+    .imagen{
+        height: 188px;
+        width: 150px;
+        filter: grayscale(1);
+    }
 
-.imagen{
-    height: 188px;
-    width: 150px;
-    filter: grayscale(1);
-}
+    .imagen-actual{
+        height: 188px;
+        width: 150px;
+    }
 
-.imagen-actual{
-    height: 188px;
-    width: 150px;
-}
-
-.imagen:hover{
-    filter: grayscale(0);
-    transition-duration: 1s;
-}
+    .imagen:hover{
+        filter: grayscale(0);
+        transition-duration: 1s;
+    }
