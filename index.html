@@ -8,6 +8,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&display=swap" rel="stylesheet">
 
+    <script src="js.js">
+
+
+
+    </script>
 
     <title>Cuadros de Velazquez</title>
 </head>
@@ -20,7 +25,7 @@
     <section class="menu-izquierda">
 
         <div>
-            <img src="imagenes/breda-mini.jpg" alt="breda" class="imagen">
+            <img src="imagenes/breda-mini.jpg" alt="breda" class="imagen-actual">
         </div>
         <div>
             <a href="index2.html"> <img src="imagenes/venus-mini.jpg" alt="venus" class="imagen"> </a>
@@ -32,14 +37,19 @@
             <a href="index4.html"> <img src="imagenes/vulcano-mini.jpg" alt="vulcano" class="imagen"> </a>
         </div>
         <div>
-            <a href="index5.html"><img src="imagenes/inocencio-mini.jpg" alt="inocencio" class="imagen-actual"> </a>
+            <a href="index5.html"><img src="imagenes/inocencio-mini.jpg" alt="inocencio" class="imagen"> </a>
         </div>
 
     </section>
 
     <section class="bloque-imagen" >
-        <div>
-            <img src="imagenes/breda.jpg" alt="breda" class="imagen-grande">
+
+            <img src="imagenes/breda.jpg" alt="breda" class="imagen-grande" id="myImg">
+
+        <div id="popUp" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01" src="imagenes/breda.jpg">
+            <div id="caption"></div>
         </div>
     </section>
 
